@@ -10,22 +10,20 @@
         android:id="@+id/textView"
         android:layout_width="281dp"
         android:layout_height="48dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="379dp"
-        android:layout_marginEnd="175dp"
-        android:layout_marginRight="175dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
         android:layout_marginBottom="342dp"
         android:fontFamily="@font/aclonica"
-        android:text="Click on the button to make me disappear"
+        android:text="                 Make me disappear!"
         android:textAllCaps="true"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.504" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -45,7 +43,7 @@
 
     <Button
         android:id="@+id/bestButton"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="82dp"
         android:layout_marginLeft="82dp"
@@ -53,10 +51,20 @@
         android:layout_marginEnd="81dp"
         android:layout_marginRight="81dp"
         android:layout_marginBottom="107dp"
-        android:text="Best Button in The World"
+        android:text="Press this to make the text go away"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gameButton"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="To Game"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/bestButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

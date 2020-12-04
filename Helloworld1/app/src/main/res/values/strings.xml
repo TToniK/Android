@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Android Project</string>
+    <string name="ImageButton1" />
+    <string name="ImageButton2" />
+    <string name="ImageButton4" />
+    <string name="ImageButton3" />
+    <string name="randomResultText" />
+    <string name="arvasit_oikein" />
+    <string name="arvasit_v_rin" />
+    <string name="pisteet_0" />
 </resources>
