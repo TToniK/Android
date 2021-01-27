@@ -33,6 +33,7 @@
             android:layout_height="151dp"
             android:contentDescription="@string/ImageButton1"
             android:onClick="onClickLowerLeft"
+            android:background="@android:color/holo_red_dark"
             app:layout_column="2"
             app:layout_row="1"
             app:srcCompat="@android:drawable/btn_star_big_on" />
@@ -43,6 +44,7 @@
             android:layout_height="151dp"
             android:contentDescription="@string/ImageButton2"
             android:onClick="onClickLowerRight"
+            android:background="@android:color/holo_red_dark"
             app:layout_column="1"
             app:layout_row="1"
             app:srcCompat="@android:drawable/btn_star_big_on" />
@@ -53,6 +55,7 @@
             android:layout_height="157dp"
             android:contentDescription="@string/ImageButton4"
             android:onClick="onClickUpperLeft"
+            android:background="@android:color/holo_red_dark"
             app:layout_column="1"
             app:layout_row="0"
             app:srcCompat="@android:drawable/btn_star_big_on" />
@@ -63,6 +66,7 @@
             android:layout_height="157dp"
             android:contentDescription="@string/ImageButton3"
             android:onClick="onClickUpperRight"
+            android:background="@android:color/holo_red_dark"
             app:layout_column="2"
             app:layout_row="0"
             app:srcCompat="@android:drawable/btn_star_big_on" />
@@ -89,7 +93,7 @@
 
         <TextView
             android:id="@+id/wrongtext"
-            android:layout_width="183dp"
+            android:layout_width="218dp"
             android:layout_height="wrap_content"
             android:text="@string/arvasit_v_rin"
             android:textAllCaps="true"
@@ -101,7 +105,7 @@
 
         <TextView
             android:id="@+id/textViewResult"
-            android:layout_width="204dp"
+            android:layout_width="218dp"
             android:layout_height="wrap_content"
             android:text="@string/pisteet_0"
             app:layout_column="1"
